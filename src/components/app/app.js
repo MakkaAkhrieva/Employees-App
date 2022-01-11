@@ -11,9 +11,9 @@ import EmployersAddForm from '../employers-add-form/employers-add-form';
 function App(){
 
     const data=[
-        {name:'Makka',salary:500,increase:true},
-        {name:'Madina',salary:3000 ,increase:false},
-        {name:'Alina',salary:800,increase:false}
+        {name:'Makka',salary:500,increase:true,id:1},
+        {name:'Madina',salary:3000 ,increase:false,id:2},
+        {name:'Alina',salary:800,increase:false,id:3}
     ]
 
     return(
